@@ -6,8 +6,8 @@ import java.sql.SQLException;
 
 public class ConnectionFactory {
     public static final String URL = "jdbc:mysql://localhost/kindergarten?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-    public static final String USER = "root";
-    public static final String PASS = "mysqldb123";
+    public static final String USER = "admin";
+    public static final String PASS = "admin";
 
 
     public static Connection connection;
